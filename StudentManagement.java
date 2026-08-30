@@ -10,8 +10,8 @@ class StudentManagement {
 
         return DriverManager.getConnection(
             "jdbc:oracle:thin:@localhost:1521:XE",
-            "Sujoy",
-            "Sujoy"
+            "System",
+            "your_password"
         );
     }
 
